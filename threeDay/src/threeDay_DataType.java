@@ -1,3 +1,3 @@
 public class threeDay_DataType {
-    //1test
+    //1Test
 }
