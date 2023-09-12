@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 /*
 Java代码规范
 1.类、方法的注释，要以javadoc的方式来写
@@ -12,8 +10,6 @@ Java代码规范
 7.代码编写风格【次行风格】和【行尾风格】
  */
 public class threeDay_CommentRule {
-    private static final Object[] EMPTY_ELEMENTDATA =new Object[1];
-    private Object[] elementData;
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
@@ -28,7 +24,7 @@ public class threeDay_CommentRule {
         }
     }
     //次行风格
-    void ArrayList_2(int initialCapacity)
+    void ArrayList(int initialCapacity)
     {
         if(initialCapacity >0)
         {
