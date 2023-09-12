@@ -13,7 +13,7 @@ public class threeDay_CommentRule {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
-    //行尾风格
+    /*行尾风格
     void ArrayList(int initialCapacity){
         if(initialCapacity >0){
             this.elementData = new Object[initialCapacity];
@@ -23,7 +23,8 @@ public class threeDay_CommentRule {
             throw new IllegalArgumentException("Illegal Capacity:" + initialCapacity);
         }
     }
-    //次行风格
+     */
+    /*次行风格
     void ArrayList(int initialCapacity)
     {
         if(initialCapacity >0)
@@ -37,4 +38,5 @@ public class threeDay_CommentRule {
             throw new IllegalArgumentException("Illegal Capacity:" + initialCapacity);
         }
     }
+     */
 }
