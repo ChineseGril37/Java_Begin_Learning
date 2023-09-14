@@ -20,6 +20,20 @@ public class fiveDay_AutoConvertDetail {
         int n2 = 1;//n2 是int
         //byte b2 = n2;//错误 原因：如果是变量赋值，判断了类型
         // 正在把一个空间为4字节大小的int类型塞进1字节大小的byte
+        //char c1 = b1;//错误 ：byte和char之间不能进行自动类型转换
+
+        //细节4 byte,short,char 他们三者可以计算，在计算时首先转换为int类型
+         byte b2 = 1;
+         byte b3 = 2;
+         short s1 = 1;
+         //short s2 = b2 + s1;//错误, b2 + s1 => int, int赋值给short报错
+         int s2 = b2 + s1;
+
+         //byte b4 = b2 + b3;//错误, b2 + b3 => int
+
+        //细节5 boolean类型不参与转换
+        boolean pass = true;
+        //int num = pass;// boolean 不参与类型的自动转换
 
     }
 }
