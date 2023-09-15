@@ -23,5 +23,18 @@ public class fiveDay_StringToBasic {
         byte num5 = Byte.parseByte(s5);
         boolean b = Boolean.parseBoolean("ture");
         short num6 = Short.parseShort(s5);
+        System.out.println("=========================");
+        System.out.println(num1);//123
+        System.out.println(num1 + 1);//123
+        System.out.println(num2);//123.0
+        System.out.println(num3);//123.0
+        System.out.println(num4);//123
+        System.out.println(num5);//123
+        System.out.println(num6);//123
+        System.out.println(b);//false
+
+        //怎么把String转为char -> 含义是指 把字符串的第一个字符得到
+        //解读 s5.charAt(1) 得到s5字符串的第一个字符
+        System.out.println(s5.charAt(0));//1
     }
 }
