@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/oneDay/oneDay.iml" filepath="$PROJECT_DIR$/oneDay/oneDay.iml" />
       <module fileurl="file://$PROJECT_DIR$/sevenDay/sevenDay.iml" filepath="$PROJECT_DIR$/sevenDay/sevenDay.iml" />
       <module fileurl="file://$PROJECT_DIR$/sixDay/sixDay.iml" filepath="$PROJECT_DIR$/sixDay/sixDay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tenDay/tenDay.iml" filepath="$PROJECT_DIR$/tenDay/tenDay.iml" />
       <module fileurl="file://$PROJECT_DIR$/threeDay/threeDay.iml" filepath="$PROJECT_DIR$/threeDay/threeDay.iml" />
       <module fileurl="file://$PROJECT_DIR$/twoDay/twoDay.iml" filepath="$PROJECT_DIR$/twoDay/twoDay.iml" />
     </modules>
