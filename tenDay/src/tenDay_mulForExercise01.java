@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tenDay_mulForExercise {
+public class tenDay_mulForExercise01 {
     public static void main(String[] args){
 //        1) 统计 3 个班成绩情况，每个班有 5 名同学，求出各个班的平均分和所有班级的平均分[学生的成绩从键盘输入]。
 //        2) 统计三个班及格人数，每个班有 5 名同学
@@ -23,7 +23,7 @@ public class tenDay_mulForExercise {
             }
             System.out.println(classnum + "班的平均分为:" + sum_class/5);
         }
-        System.out.println("总平均分为:" + sum_total/5);
+        System.out.println("总平均分为:" + sum_total/15);
         System.out.println("及格人数为:" + counter);
     }
 }
