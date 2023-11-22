@@ -7,6 +7,24 @@ public class elevenDay_breakDetail {
         4)在实际开发中，尽量不要使用标签
         5)如果没有指定break，默认退出最近的循环体
          */
-
+        int counter = 0;
+        label1:
+        for (int i = 0; i < 5; i++){
+            label2:
+            for (int j = 0; j < 4; j++){
+                label3:
+                for (int k = 0; k < 3; k++){
+                    counter++;
+                    System.out.println("i=" + i);
+                    System.out.println("j=" + j);
+                    System.out.println("k=" + k);
+                    System.out.println("————————————————————————");
+                    if(j == 2){
+                        break label1;
+                    }
+                }
+            }
+        }
+        System.out.println("counter=" + counter);
     }
 }
