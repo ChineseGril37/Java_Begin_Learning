@@ -1,6 +1,5 @@
 public class Day13_Object02 {
     public static void main(String[] args) {
-
     }
 }
 class Car{
