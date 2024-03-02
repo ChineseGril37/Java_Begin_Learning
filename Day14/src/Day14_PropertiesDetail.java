@@ -18,6 +18,10 @@ public class Day14_PropertiesDetail  {
         p2.name = "小张";
         System.out.println("p2_name=" + p2.name);
         System.out.println("p1_name=" + p1.name);
+        //将p2的指针置空，观察两个对象的变化
+        p2 = null;
+        System.out.println("p1_age=" + p1.age);//p1正常输出
+        System.out.println("p2_age=" + p2.age);//p2报错
     }
 }
 class Person {
