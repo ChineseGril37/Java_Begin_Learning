@@ -11,7 +11,7 @@ public class Day16_Maze {
             map[row][6]=1;
             map[0][row]=1;
             map[7][row]=1;
-            map[4][row]=1;
+            //map[4][row]=1;
         }
         maze.printMaze(map);
         System.out.println("=====找路情况如下=====");
